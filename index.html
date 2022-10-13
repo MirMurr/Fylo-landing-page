@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo-container">
+        <img class="logo" src="./images/logo.svg" alt="company logo">
+      </div>
+      <ul class="navlinks">
+        <li class="nav-item"><a class="navlink" href="#">Features</a></li>
+        <li class="nav-item"><a class="navlink" href="#">Team</a></li>
+        <li class="nav-item"><a class="navlink" href="#">Sign In</a></li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+    </nav>
+  </header>
+  <main>
+<!--START INTRO SECTION-->
+    <div class="intro-section">
+      <div class="intro-image-container">
+        <img class="intro-image" src="./images/illustration-intro.png" alt="intro image">
+      </div>
+      <div class="text">
+        <h1 class="intro">All your files in one secure location, <br>accessible anywhere.</h1>
+        <p class="intro"> Fylo stores all your most important files in one secure location. <br>Access them wherever you need, share and collaborate with <br>friends family, and co-workers.</p> 
+        <button><a href="#">Get Started</a></button>
+      </div>
+    </div>
+<!--END INTRO SECTION-->
+
+<!--START ICONS SECTION-->
+    <div class="icons-section">
+      <div class="wrapper">
+        <div class="img-wrap">
+          <img src="./images/icon-access-anywhere.svg" alt="icon">
+        </div>
+        <h4>Access your files, anywhere</h4>
+        <p> The ability to use a smartphone, tablet, or computer to access your account means your files follow you<br>everywhere.</p>
+      </div>
+      <div class="wrapper">
+        <img src="./images/icon-collaboration.svg" alt="icon">
+        <h4>Real-time collaboration</h4>
+        <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments<br>required.</p>
+      </div>
+
+      <div class="wrapper">
+        <div class="img-wrap">
+          <img src="./images/icon-security.svg" alt="icon">
+        </div>
+        <h4>Security you can trust</h4>
+        <p> 2-factor authentication and user-controlled encryption are just a couple of the security features we allow to help<br>secure your files.</p>
+      </div>
+      <div class="wrapper">
+        <div class="img-wrap">
+          <img src="./images/icon-any-file.svg" alt="icon">
+        </div>
+        <h4>Store any type of file</h4>
+        <p>  Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file<br>types to be securely stored and shared.</p>
+      </div>
+    </div>
+<!--END ICONS SECTION-->
+
+<!--START SLOGAN SECTION-->
+    <div class="slogan-section">
+      <div class="image-container">
+        <img src="./images/illustration-stay-productive.png" alt="productive">
+      </div>
+      <div class="text-container">
+        <h2>Stay productive, <br>wherever you are</h2>
+        <p>Never let location be an issue when accessing your files. Fylo has you <br>covered for all of your file 
+          storage needs.</p>
+        <p>Securely share files and folders with friends, family and colleagues for live <br>collaboration. No email 
+          attachments required.</p>
+        <a href="#">See how Fylo works</a>
+      </div>
+    </div>
+<!--END SLOGAN SECTION--> 
+
+<!--START TESTIMONIALS SECTION-->
+    <div class="testimonials-section">
+
+      <div class="quote-wrapper"> 
+        <img class="quote-mark" src="./images/bg-quotes.png" alt="quote mark">
+      </div>
+      <div class="testimonial">
+        <div class="testi-text">
+          <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+        </div>
+        <div class="profile">
+          <div class="profile-image">
+            <img src="./images/profile-1.jpg" alt="profile-pic">
+          </div>
+          <div class="name">
+            <p class="name">Satish Patel</p>
+            <p class="title">Founder & CEO, Huddle</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial">
+        <div class="testi-text">
+          <p> Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+        </div>
+        <div class="profile">
+          <div class="profile-image">
+            <img src="./images/profile-2.jpg" alt="profile-pic">
+          </div>
+          <div class="name">
+            <p class="name">Bruce McKenzie</p>
+            <p class="title">Founder & CEO, Huddle</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial">
+        <div class="testi-text">
+          <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+        </div>
+        <div class="profile">
+          <div class="profile-image">
+            <img src="./images/profile-3.jpg" alt="profile-pic">
+          </div>
+          <div class="name">
+            <p class="name">Iva Boyd</p>
+            <p class="title">Founder & CEO, Huddle</p>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--END TESTIMONIALS SECTION-->
+
+<!--START FORM-->
+    <div class="form-section">
+      <div class="f-wrapper">
+        <h2>Get early access today</h2>
+        <p> It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
+        <form action="#" method="POST" id="form">
+          <input type="email" id="email" name="email" class="email" value="enter your E-Mail adress">
+          <input type="submit" class="submit-btn" id="submit-btn" value="Get Started For Free"> <!--This is the button-->
+        </form>
+        <div id="error-msg"></div>
+      </div>
+    </div>
+<!--END FORM-->
+
+<!--START FOOTER-->
+    <footer>
+      <div class="f-logo-container">
+        <img src="./images/logo.svg" alt="company logo">
+      </div>
+      <div class="location">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" fill="white" stroke="#000000" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">&lt;!--!  Atomicons Free 1.00 by @atisalab License - https://atomicons.com/license/ (Icons: CC BY 4.0) Copyright 2021 Atomicons --&gt;<path d="M19.84,11.92c-.93,5.59-5.74,8.85-7.33,9.79a1,1,0,0,1-1,0C9.73,20.68,4,16.77,4,10a8,8,0,0,1,8.36-8C17.31,2.23,20.66,7,19.84,11.92Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+        <p>Lorem ipsum dolor sit amet, consectetur<br>adipiscing elit, sed do eiusmod tempor<br>incididunt ut labore et 
+            dolore magna aliqua</p>
+      </div>
+
+      <div class="contact">
+        <div class="phone">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="25" height="25" fill="white" stroke="#000000" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">&lt;!--!  Atomicons Free 1.00 by @atisalab License - https://atomicons.com/license/ (Icons: CC BY 4.0) Copyright 2021 Atomicons --&gt;<path d="M3.8,12.2,7.88,9.69a2,2,0,0,0,.93-2l-.56-4A2,2,0,0,0,6.27,2H4A2,2,0,0,0,2,4V5A17,17,0,0,0,19,22h1a2,2,0,0,0,2-2V17.73a2,2,0,0,0-1.72-2l-4-.56a2,2,0,0,0-2,.93L11.8,20.2"></path></svg>
+          <p>+1-543-123-4567</p>
+        </div>
+        <div class="email">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="25" height="25" fill="white" stroke="#000000" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">&lt;!--!  Atomicons Free 1.00 by @atisalab License - https://atomicons.com/license/ (Icons: CC BY 4.0) Copyright 2021 Atomicons --&gt;<rect x="2" y="4" width="20" height="16" rx="2"></rect><polyline points="2 7 12 14 22 7" stroke-linecap="round"></polyline></svg>
+          <p>example@fylo.com</p>
+        </div>
+      </div>
+
+      <div class="about">
+        <a href="#">About</a>
+        <a href="#">Jobs</a>
+        <a href="#">Press</a>
+        <a href="#">Blog</a>
+      </div>
+
+      <div class="other">
+        <a href="#">Contact us</a>
+        <a href="#">Terms</a>
+        <a href="#">Privacy</a>
+      </div>
+
+      <div class="social-icons">
+        <a href="#" class="facebook"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: white;transform: ;msFilter:;"><path d="M13.397 20.997v-8.196h2.765l.411-3.209h-3.176V7.548c0-.926.258-1.56 1.587-1.56h1.684V3.127A22.336 22.336 0 0 0 14.201 3c-2.444 0-4.122 1.492-4.122 4.231v2.355H7.332v3.209h2.753v8.202h3.312z"></path></svg></a>
+        <a href="#" class="twitter"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: white;transform: ;msFilter:;"><path d="M19.633 7.997c.013.175.013.349.013.523 0 5.325-4.053 11.461-11.46 11.461-2.282 0-4.402-.661-6.186-1.809.324.037.636.05.973.05a8.07 8.07 0 0 0 5.001-1.721 4.036 4.036 0 0 1-3.767-2.793c.249.037.499.062.761.062.361 0 .724-.05 1.061-.137a4.027 4.027 0 0 1-3.23-3.953v-.05c.537.299 1.16.486 1.82.511a4.022 4.022 0 0 1-1.796-3.354c0-.748.199-1.434.548-2.032a11.457 11.457 0 0 0 8.306 4.215c-.062-.3-.1-.611-.1-.923a4.026 4.026 0 0 1 4.028-4.028c1.16 0 2.207.486 2.943 1.272a7.957 7.957 0 0 0 2.556-.973 4.02 4.02 0 0 1-1.771 2.22 8.073 8.073 0 0 0 2.319-.624 8.645 8.645 0 0 1-2.019 2.083z"></path></svg></a>
+        <a href="#" class="instagram"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: white;transform: ;msFilter:;"><path d="M11.999 7.377a4.623 4.623 0 1 0 0 9.248 4.623 4.623 0 0 0 0-9.248zm0 7.627a3.004 3.004 0 1 1 0-6.008 3.004 3.004 0 0 1 0 6.008z"></path><circle cx="16.806" cy="7.207" r="1.078"></circle><path d="M20.533 6.111A4.605 4.605 0 0 0 17.9 3.479a6.606 6.606 0 0 0-2.186-.42c-.963-.042-1.268-.054-3.71-.054s-2.755 0-3.71.054a6.554 6.554 0 0 0-2.184.42 4.6 4.6 0 0 0-2.633 2.632 6.585 6.585 0 0 0-.419 2.186c-.043.962-.056 1.267-.056 3.71 0 2.442 0 2.753.056 3.71.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.042 1.268.055 3.71.055s2.755 0 3.71-.055a6.615 6.615 0 0 0 2.186-.419 4.613 4.613 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.186.043-.962.056-1.267.056-3.71s0-2.753-.056-3.71a6.581 6.581 0 0 0-.421-2.217zm-1.218 9.532a5.043 5.043 0 0 1-.311 1.688 2.987 2.987 0 0 1-1.712 1.711 4.985 4.985 0 0 1-1.67.311c-.95.044-1.218.055-3.654.055-2.438 0-2.687 0-3.655-.055a4.96 4.96 0 0 1-1.669-.311 2.985 2.985 0 0 1-1.719-1.711 5.08 5.08 0 0 1-.311-1.669c-.043-.95-.053-1.218-.053-3.654 0-2.437 0-2.686.053-3.655a5.038 5.038 0 0 1 .311-1.687c.305-.789.93-1.41 1.719-1.712a5.01 5.01 0 0 1 1.669-.311c.951-.043 1.218-.055 3.655-.055s2.687 0 3.654.055a4.96 4.96 0 0 1 1.67.311 2.991 2.991 0 0 1 1.712 1.712 5.08 5.08 0 0 1 .311 1.669c.043.951.054 1.218.054 3.655 0 2.436 0 2.698-.043 3.654h-.011z"></path></svg></a>
+      </div>
+
+      <div class="attribution">
+        <p class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Andrea Hideg</a>.
+        </p>
+      </div>
+    </footer>
+  <!--END FOOTER-->
+  </main>
+  
+<script src="script.js"></script>
+<script src="hamburger.js"></script>
+</body>
+</html>
