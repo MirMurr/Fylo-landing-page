@@ -465,10 +465,10 @@ div.social-icons svg {
     border: 0.7px solid #ffffff;
     border-radius: 100%;
 }
-
+/*
 div.social-icons p {
     display: none;
-}
+}*/
 
 div.attribution {
     grid-area: 3 / 1 / 3 / 6;
