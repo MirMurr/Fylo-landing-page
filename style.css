@@ -323,6 +323,10 @@ div.form-section {
     position: relative;
 }
 
+label {
+    display: none;
+}
+
 div.f-wrapper {
     display: flex;
     flex-direction: column;
@@ -462,6 +466,9 @@ div.social-icons svg {
     border-radius: 100%;
 }
 
+div.social-icons p {
+    display: none;
+}
 
 div.attribution {
     grid-area: 3 / 1 / 3 / 6;
